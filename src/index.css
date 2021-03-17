@@ -1,0 +1,60 @@
+/* Asterisk Selector is to select all elements*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 500px;
+  min-height: 300px;
+  border: solid 1px lightgrey;
+  margin: 50px auto;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.header {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.task {
+  width: 100%;
+  background: lightgrey;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.reminder {
+  width: 100%;
+  background: lightgrey;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: solid 5px green;
+}
