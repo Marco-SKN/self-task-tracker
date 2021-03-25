@@ -56,7 +56,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <Header showAdd={showAdd} />
+      <Header showAdd={showAdd} showAddTask={showAddTask} />
       {showAddTask && <AddTask addTask={addTask} />}
       {tasks.length > 0 ? (
         <TaskHolder
