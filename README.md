@@ -6,6 +6,6 @@ Green bar on the left of the task indicate reminder is turned on.
 <br></br>
 
 
-Website is delpoyed here:
+Website is deployed here:
 
 https://marco-skn.github.io/self-task-tracker/
